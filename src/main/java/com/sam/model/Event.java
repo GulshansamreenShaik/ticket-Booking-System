@@ -7,17 +7,17 @@ public class Event {
   private String venue;
   private LocalDateTime eventDate;
   private int totalSeats;
-  Event(int id,String name, String venue,LocalDateTime eventDate, int totalSeats){
+  public Event(int id,String name, String venue,LocalDateTime eventDate, int totalSeats){
     this.id=id;
     this.name=name;
     this.venue=venue;
     this.eventDate= eventDate;
     this.totalSeats=totalSeats;
+    
   }
   public int getId() {
-    return this.id;
+  return this.id;
 }
-
   public void setId(int id) {
       this.id = id;
   }
